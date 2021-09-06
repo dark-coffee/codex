@@ -1,0 +1,10 @@
+# editorconfig
+
+## root file
+root = true
+
+## markdown files
+[*.md]
+indent_style = space
+indent_size = 0
+trim_trailing_whitespace = false
