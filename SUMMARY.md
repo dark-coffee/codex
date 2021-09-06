@@ -14,3 +14,4 @@
 * [iOS](ios/README.md)
 * [macOS](macos/README.md)
 * [Windows](windows/README.md)
+* [Wallpapers](wallpapers.md)
