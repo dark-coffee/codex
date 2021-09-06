@@ -7,3 +7,6 @@
   * [Obscure](knowlege/obscure.md)
 * [minimalism](minimalism/README.md)
 * [Hacking Humans](hacking-humans.md)
+* [CLI](cli/README.md)
+  * [PowerShell](cli/powershell.md)
+  * [zsh](cli/zsh.md)
