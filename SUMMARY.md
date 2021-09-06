@@ -6,6 +6,7 @@
   * [Misc](knowlege/misc.md)
   * [Obscure](knowlege/obscure.md)
 * [minimalism](minimalism/README.md)
+* [Keyboards](keyboards.md)
 * [Hacking Humans](hacking-humans.md)
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
