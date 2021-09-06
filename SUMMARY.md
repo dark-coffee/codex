@@ -10,3 +10,6 @@
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
   * [zsh](cli/zsh.md)
+* [iOS](ios/README.md)
+* [macOS](macos/README.md)
+* [Windows](windows/README.md)
