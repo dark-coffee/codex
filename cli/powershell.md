@@ -1,5 +1,7 @@
 # PowerShell
 
+## Syncing a Remote Profile
+
 ## Links
 
 * [Windows Terminal](https://github.com/microsoft/terminal)
