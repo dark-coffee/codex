@@ -15,3 +15,6 @@
 * [macOS](macos/README.md)
 * [Windows](windows/README.md)
 * [Wallpapers](wallpapers.md)
+* [Watchlist](watchlist/README.md)
+  * [Movies](watchlist/movies.md)
+  * [TV Shows](watchlist/tv-series.md)
