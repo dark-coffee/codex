@@ -2,7 +2,7 @@
 
 ## Pihole
 
-Pi-hole is a DNS-based adblocker for your network. Think of it as a /etc/hosts on steriods.
+Pi-hole is a DNS-based adblocker for your network. Think of it as /etc/hosts on steriods.
 
 ### Personal Blocklists
 
