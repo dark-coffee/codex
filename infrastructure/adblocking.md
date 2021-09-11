@@ -3,6 +3,7 @@
 ## Pihole
 
 Pi-hole is a DNS-based adblocker for your network. Think of it as /etc/hosts on steriods.
+*no, you can't block youtube ads*
 
 ### Personal Blocklists
 
@@ -11,6 +12,10 @@ I maintain a list of the blocklists I use, [here](https://github.com/dark-coffee
 ### Pihole on Docker
 
 Here's a docker-compose containg the useful info to spawn a pi-hole container.
+
+**Important:** this is a generic pi-hole installation, with some personal preferences.  
+DNS points to the malware-blocking cloudflare resolver, but I can also highly recommend Quad9.  
+To persist data, the container mounts the host locations `./etc-pihole/` &  `./etc-dnsmaq.d/`
 
 ```yml
 version: "3.3"
@@ -46,4 +51,7 @@ services:
 
 ### Links
 
+* [Pi-Hole](https://pi-hole.net)
 * [Firebog.net](https://firebog.net) - a great selection of blocklists
+* [1.1.1.2| Cloudflare](https://one.one.one.one/family/)
+* [Quad9](https://www.quad9.net)
