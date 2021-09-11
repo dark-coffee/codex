@@ -6,6 +6,8 @@ Pi-hole is a DNS-based adblocker for your network. Think of it as a /etc/hosts o
 
 ### Personal Blocklists
 
+I maintain a list of the blocklists I use, [here](https://github.com/dark-coffee/keylime)
+
 ### Pihole on Docker
 
 Here's a docker-compose containg the useful info to spawn a pi-hole container.
