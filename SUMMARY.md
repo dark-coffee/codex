@@ -16,7 +16,7 @@
   * [Obscure](knowlege/obscure.md)
 * [macOS](macos/README.md)
 * [minimalism](minimalism.md)
-* [SQL Server](sql-server/README.md)
+* [SQL](sql/README.md)
 * [Wallpapers](wallpapers.md)
 * [Watchlist](watchlist/README.md)
   * [Movies](watchlist/movies.md)
