@@ -1,5 +1,9 @@
 # macOS
 
+## Configuration
+
+I have a repo of configurations [here](https://github.com/dark-coffee/dotfiles). The goal is to create a standardised deployment package!
+
 ## Customisation
 
 ### Everything
@@ -8,7 +12,7 @@
 * [juice](https://github.com/brianmichel/Juice) - Emoji / passive agressive battery status
 * [cleanshot x](https://cleanshot.com) - Better screenshots
 * [bartender](https://www.macbartender.com) - Hide your menu bar icons
-* [notion](https://notion.so) - Awesome note-taking app
+* [notion](https://notion.so) - Awesome note-taking web-app
 * [deliveries](https://apps.apple.com/gb/app/deliveries/id290986013) - Aesthetically pleasing parcel tracker
 * [VS Code](https://code.visualstudio.com) - Possibly the world's best IDE
 * [left](https://github.com/hundredrabbits/Left) - Aesthetically pleasing markdown editor

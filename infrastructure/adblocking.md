@@ -51,7 +51,7 @@ services:
 
 ### Links
 
-* [Pi-Hole](https://pi-hole.net)
+* [Pi-Hole](https://pi-hole.net) - The official Pi-Hole website
 * [Firebog.net](https://firebog.net) - a great selection of blocklists
-* [1.1.1.2| Cloudflare](https://one.one.one.one/family/)
-* [Quad9](https://www.quad9.net)
+* [1.1.1.2](https://one.one.one.one/family/) - Cloudflare's DNS resolver site
+* [Quad9](https://www.quad9.net) - Quad9 homepage
