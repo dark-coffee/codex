@@ -2,7 +2,7 @@
 
 ## Scripts
 
-* [Dump of Generic Scripts](https://github.com/dark-coffee/scripts/sql/)
+* [Dump of Generic Scripts](https://github.com/dark-coffee/scripts/tree/main/sql)
 * [Adhoc Query Workload Calculator](https://github.com/dark-coffee/scripts/blob/main/sql/AdhocQueryPercentageCheck.sql) - calculate your adhoc query workload percentage
 
 ## Links
