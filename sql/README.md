@@ -5,6 +5,14 @@
 * [Dump of Generic Scripts](https://github.com/dark-coffee/scripts/tree/main/sql)
 * [Adhoc Query Workload Calculator](https://github.com/dark-coffee/scripts/blob/main/sql/AdhocQueryPercentageCheck.sql) - calculate your adhoc query workload percentage
 
+### Training Courses
+
+I've authored a series of training courses in my day:
+
+* [Microsoft SQL Server - Basics of T-SQL Querying](./basic-tsql-querying.md)
+* [Microsoft SQL Server - Advanced T-SQL Querying](./advanced-tsql-querying.md)
+* [Microsoft SQL Server - Configuraiton](./sql-server-configuration.md)
+
 ## Links
 
 ### Books, yeah those paper things
