@@ -9,6 +9,7 @@
 * [Coffee](coffee.md)
 * [Docker](docker.md)
 * [Future](future.md)
+* [Github](github/README.md)
 * [Hacking Humans](hacking-humans.md)
 * [Infrastructure](infrastructure/README.md)
   * [Adblocking](infrastructure/adblocking.md)
