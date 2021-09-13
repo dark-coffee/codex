@@ -8,7 +8,7 @@ on:
 env:
   URL: https://cortex.shadow.coffee
   #FILENAME: report.yaml
-  #CONFIG: config.json
+  CONFIG: config.json
 
 jobs:
   build:
