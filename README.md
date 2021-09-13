@@ -16,3 +16,7 @@ I exist elsewhere on the internet, mainly:
 * [shadow.coffee](https://shadow.coffee)
 * [github](https://github.com/dark-coffee)
 * [twitter](https://twitter.com/shadowcovfefe)
+
+***
+
+[![Link Snitch](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml/badge.svg)](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml)
