@@ -351,16 +351,16 @@ SELECT
 Example of an `INNER JOIN`. This combines columns from 1 or more tables, which can be saved as a table or used in result form.
 
 ```sql
-    SELECT *  
-      FROM [case]  
+    SELECT *
+      FROM [case]
 INNER JOIN [patient] ON [case].[patientref] = [patient].[patientref];
 ```
 
 Example of a `LEFT JOIN`. This will return all rows from the left table, with the matching rows from the right table – provided there is a match. If there is no match, `NULL` will be returned for the right table.
 
 ```sql
-   SELECT *  
-     FROM [case]  
+   SELECT *
+     FROM [case]
 LEFT JOIN [patient] ON [case].[patientref] = [patient].[patientref];
 ```
 
@@ -368,7 +368,7 @@ When using a `JOIN`, if you wish to select a specific column, you will need to s
 
 ```sql
     SELECT [table1].[columname],[table2].[columnname]
-      FROM [table1]    
+      FROM [table1]
 INNER JOIN [table2] ON [table1].[columnname] = [table2].[columnname];
 ```
 
@@ -409,6 +409,23 @@ SELECT
 ---
 
 ## Transactions
+
+### Transactions - Overview
+
+[Tom Scott - The Worst Typo I Ever Made](https://www.youtube.com/watch?v=X6NJkWbM1xk)
+
+### Transactions - Usage
+
+- In MSSQL, transactions are opened with `BEGIN TRAN`.
+- To close a transaction and save the changes, type `COMMIT` or `COMMIT TRAN`.
+- To close a transaction and discard the changes, type `ROLLBACK` or `ROLLBACK TRAN`.
+
+- An open transaction (e.g. using `BEGIN TRAN` and then not following it with `COMMIT` or `ROLLBACK`) will lock the table(s) being operated upon and prevent all writing until the transaction is committed or rolled back.
+  - Open transactions are to be avoided **at all costs**.
+
+- When finished, if you are unsure if a transaction is still open, you can run `PRINT @@TRANCOUNT` – if the number is not 0, then there is an open transaction.
+
+- If updating the database, you must **ALWAYS** use a transaction.
 
 ---
 
