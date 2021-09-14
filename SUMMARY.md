@@ -27,6 +27,7 @@
 * [PowerShell](powershell.md)
 * [Privacy](privacy.md)
 * [SQL](sql/README.md)
+  * [Training Courses](sql/training/README.md)
 * [Unix](unix/README.md)
 * [Virtual Machines](vms.md)
 * [Wallpapers](wallpapers.md)

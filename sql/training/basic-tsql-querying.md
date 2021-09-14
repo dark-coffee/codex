@@ -132,7 +132,7 @@ SELECT
     PatientRef,
     Forename,
     Surname,
-    DoB
+    DoB
   FROM patient;
 ```
 
@@ -165,8 +165,8 @@ SELECT DISTINCT Surname
 - The `WHERE` statement will always come after the `FROM` operator.
 
 ```sql
-  SELECT [column]
-    FROM [table]
+  SELECT [column]
+    FROM [table]
     WHERE [criteria];
 
 ```
@@ -194,16 +194,16 @@ There are several operators that will change the functionality of the `WHERE` cl
 **Query 1**: This query will return all columns from the patient table, where the surname is Smith. i.e. every patient who’s surname is Smith.
 
 ```sql
-SELECT *
-  FROM patient
+SELECT *
+  FROM patient
  WHERE surname = ‘Smith’;
 ```
 
 **Query 2**: This query will return all columns from the case table, with a case number greater than or equal to 1337. Single quotes are not required for integer fields.
 
 ```sql
-SELECT *
-  FROM case
+SELECT *
+  FROM case
  WHERE caseno >= 1337;
 ```
 
@@ -222,8 +222,8 @@ SELECT *
 SELECT
     forename,
     surname,
-    DoB
-  FROM patient
+    DoB
+  FROM patient
  WHERE forename = ‘John’
    AND surname = ‘Smith’;
 ```
@@ -234,8 +234,8 @@ SELECT
 SELECT
     forename,
     surname,
-    DoB
-  FROM patient
+    DoB
+  FROM patient
  WHERE forename = ‘Dan’
     OR forename = ‘Daniel’;
 ```
@@ -257,8 +257,8 @@ This query will return the first 25 patients from the patients table.
 - If you wish to override this order, you can specify the order by utilising the `ORDER BY` clause.
 
 ```sql
-  SELECT *
-    FROM [table]
+  SELECT *
+    FROM [table]
 ORDER BY [column] ASC/DESC;
 ```
 
@@ -270,16 +270,16 @@ ORDER BY [column] ASC/DESC;
 **Query 1**: This query will select all columns from the log table, but only the top 200 rows, sorted by date descending (most recent first).
 
 ```sql
-  SELECT TOP(200) *
-    FROM log
+  SELECT TOP(200) *
+    FROM log
 ORDER BY Date DESC;
 ```
 
 **Query 2**: This query will select all rows from the case table ordered by their case number, in an ascending fashion.
 
 ```sql
-  SELECT *
-    FROM case
+  SELECT *
+    FROM case
 ORDER BY caseno ASC;
 ```
 
@@ -290,8 +290,8 @@ ORDER BY caseno ASC;
 - Filtering by date also reduces the quantity of records returned.
 
 ```sql
-SELECT *
-  FROM patient
+SELECT *
+  FROM patient
  WHERE DoB > ‘1993-03-20’;
 ```
 
@@ -318,8 +318,8 @@ This query will return all columns all patients with a DoB greater than March 20
 ```sql
 SELECT
     forename,
-    surname
-  FROM patient
+    surname
+  FROM patient
  WHERE surname LIKE ‘Smith%’;
 ```
 
@@ -328,8 +328,8 @@ SELECT
 ```sql
 SELECT
     forename,
-    surname
-  FROM patient
+    surname
+  FROM patient
  WHERE surname LIKE ‘%smith’;
 ```
 
@@ -351,15 +351,15 @@ SELECT
 Example of an `INNER JOIN`. This combines columns from 1 or more tables, which can be saved as a table or used in result form.
 
 ```sql
-    SELECT *
-      FROM [case]
+    SELECT *
+      FROM [case]
 INNER JOIN [patient] ON [case].[patientref] = [patient].[patientref];
 ```
 
 Example of a `LEFT JOIN`. This will return all rows from the left table, with the matching rows from the right table – provided there is a match. If there is no match, `NULL` will be returned for the right table.
 
 ```sql
-   SELECT *
+   SELECT *
      FROM [case]
 LEFT JOIN [patient] ON [case].[patientref] = [patient].[patientref];
 ```
@@ -368,8 +368,8 @@ When using a `JOIN`, if you wish to select a specific column, you will need to s
 
 ```sql
     SELECT [table1].[columname],[table2].[columnname]
-      FROM [table1]
-INNER JOIN [table2] ON [table1].[columnname] = [table2].[columnname];
+      FROM [table1]
+INNER JOIN [table2] ON [table1].[columnname] = [table2].[columnname];
 ```
 
 ### Unions
