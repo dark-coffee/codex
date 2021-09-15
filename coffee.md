@@ -19,6 +19,10 @@ Watch this space!
 
 A list of all the coffee beans I've been through, maybe some notes.
 
+### Coffee Wishlist
+
+Coffee I want to try!
+
 ## Links
 
 ### Roasters
