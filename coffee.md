@@ -17,7 +17,26 @@ Watch this space!
 
 ## Coffee List
 
-A list of all the coffee beans I've been through, maybe some notes.
+A list of all the coffee I've been through, maybe some notes.
+
+- 200 Degrees: Brazillian Love Affair
+- 200 Degrees: La Nina De Guatemala
+- 200 Degrees: Colombia Pueblo Nuevo
+- 200 Degrees: Roast of Christmas Present
+- Square Mile: Red Brick
+- Square Mile: Filter Blend (these are on rotation but always amazing)
+- Square Mile: El Sauce
+- Square Mile: Rotutu
+- Longos: French Vanilla (I know it's supermarket coffee but 😍) - possibly my favourite coffee ever??!!?
+- Longos: Maple (I know it's supermarket coffee but 😍)
+- Starbucks: Blonde Roast (nice and light)
+- Starbucks: Medium Roast (Standard)
+- Starbucks: Dark Roast (charred taste)
+- Tim Hortons: Dark Roast (v good)
+- Ozone: Colombia Matambo
+- Ozone: Costa Rica Sumava Ruva
+- Dept of Coffee: Rhapsody in Blue
+- Dept of Coffee: Autumn Walks
 
 ### Coffee Wishlist
 
