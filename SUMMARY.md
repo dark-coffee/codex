@@ -25,6 +25,7 @@
   * [Obscure](knowlege/obscure.md)
 * [macOS](macos/README.md)
 * [minimalism](minimalism.md)
+* [Plants](plants/README.md)
 * [PowerShell](cli/powershell.md)
 * [Privacy](privacy.md)
 * [SQL](sql/README.md)
