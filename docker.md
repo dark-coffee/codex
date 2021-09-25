@@ -20,6 +20,26 @@ You just need to utilize volumes.
 #### Sample SQL Server Compose File
 
 ```yml
+version: "3.3"
+
+services:
+  sqlserver:
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    hostname: sqlserver
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+      SA_PASSWORD: "passwordgoeshere"
+    volumes:
+      - "sql-data:/var/opt/mssql/data"
+      - "sql-data:/var/opt/mssql/log"
+      - "sql-data:/var/opt/mssql/secrets"
+
+volumes:
+  sql-data:
 
 ```
 
