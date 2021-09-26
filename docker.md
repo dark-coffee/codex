@@ -8,7 +8,7 @@ For Windows this requires the installation of WSL2.
 
 ## Docker-Compose
 
-* yaml files
+- yaml files
 
 ### SQL Server
 
@@ -40,8 +40,15 @@ services:
 
 volumes:
   sql-data:
-
 ```
+
+**File Breakdown:**
+
+| Element     | Meaning                                            |
+| ----------- | -------------------------------------------------- |
+| ACCEPT_EULA | End User Licence Agreement Acceptance Confirmation |
+| MSSQL_PID   | Version of SQL Server to Run (see licencing)       |
+| SA_PASSWORD | Sysadmin Password                                  |
 
 #### Restoring Databases using T-SQL
 
