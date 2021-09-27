@@ -41,7 +41,7 @@ Here's a breakdown of my boards!
 
 ### Razer Blackwidow Chroma
 
-![Razer Blackwidow Chroma](https://shadow.coffee/bucket/keyboards/blackwidow.jpg)
+![Razer Blackwidow Chroma](https://shadow.coffee/bucket/keyboards/razer.jpg)
 
 ### Gherkin
 
