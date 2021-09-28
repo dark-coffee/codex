@@ -167,7 +167,7 @@ SELECT DISTINCT Surname
 ```sql
   SELECT [column]
     FROM [table]
-    WHERE [criteria];
+   WHERE [criteria];
 
 ```
 
@@ -303,13 +303,13 @@ This query will return all columns all patients with a DoB greater than March 20
 - Useful if you’re trying to find something, but you know only part of the value.
 - You can use more than one wildcard together for an exciting combination!
 
-| Symbol | Meaning                                            | Example                                            |
-| :----: | -------------------------------------------------- | -------------------------------------------------- |
-|   %    | Matches 0 or more characters.                      | ‘Si%’ will find “Sign”, “Signal” etc               |
-|   \_   | Matches 1 character.                               | ‘Sig\_’ will find “Sigh”, “Sign” etc.              |
-|   []   | Matches any of the characters within the brackets. | ‘H\[ai]t’ will find “Hat”, “Hit” but not “Hot”.    |
-|   ^    | Matches any of the characters not in the brackets. | ‘H\[^ai]t’ will find “Hot” but not “Hit” or “Hat”. |
-|   -    | Matches a range of characters.                     | ‘H[a-c]t’ will find “Hat”, “Hbt”, “Hct”.           |
+| Symbol | Meaning                                                | Example                                            |
+| :----: | ------------------------------------------------------ | -------------------------------------------------- |
+|   %    | Matches 0 or more characters.                          | ‘Si%’ will find “Sign”, “Signal” etc               |
+|   \_   | Matches 1 character.                                   | ‘Sig\_’ will find “Sigh”, “Sign” etc.              |
+|  [ ]   | Matches any of the characters **within** the brackets. | ‘H\[ai]t’ will find “Hat”, “Hit” but not “Hot”.    |
+|   ^    | Matches any of the characters **not** in the brackets. | ‘H\[^ai]t’ will find “Hot” but not “Hit” or “Hat”. |
+|   -    | Matches a range of characters.                         | ‘H[a-c]t’ will find “Hat”, “Hbt”, “Hct”.           |
 
 #### LIKE & Wildcards - Example Queries
 
@@ -421,6 +421,7 @@ SELECT
 - To close a transaction and discard the changes, type `ROLLBACK` or `ROLLBACK TRAN`.
 
 - An open transaction (e.g. using `BEGIN TRAN` and then not following it with `COMMIT` or `ROLLBACK`) will lock the table(s) being operated upon and prevent all writing until the transaction is committed or rolled back.
+
   - Open transactions are to be avoided **at all costs**.
 
 - When finished, if you are unsure if a transaction is still open, you can run `PRINT @@TRANCOUNT` – if the number is not 0, then there is an open transaction.
@@ -431,9 +432,90 @@ SELECT
 
 ## Update
 
+### Update - Overview
+
+The UPDATE command updates fields in the database.
+
+Unless you fully understand the UPDATE command and it’s consequences, do not use it.
+If issuing an UPDATE command, you must use a transaction.
+Partially to protect yourself, partially for data integrity.
+Before issuing an UPDATE command, have someone sanity-check your work.
+
+### Update - Example
+
+Example of an UPDATE statement:
+
+```sql
+UPDATE [staff]
+   SET Surname = 'Smith'
+ WHERE Surname = 'Smit';
+```
+
+This will update the surname column in the staff table, where the surname is spelt incorrectly.
+
+### Update - Components
+
+UPDATE Statements are made up of several component parts:
+
+1. The table you’re updating: `UPDATE [Staff]`
+2. The column name, and the new value to set: `SET Surname = 'Smith'`
+3. Criteria to determine which columns to change" `WHERE Surname = 'Smit'`
+
+### Update - Process
+
+It is good practice to run a SELECT statement before writing the UPDATE to ensure you know what will be changed
+
+```sql
+  SELECT *
+    FROM [staff]
+   WHERE Surname = 'Smit';
+```
+
+Perform the UPDATE inside a transaction
+
+```sql
+BEGIN TRAN
+UPDATE [staff]
+   SET Surname = 'Smith'
+ WHERE Surname = 'Smit';
+```
+
+Check the change with another SELECT statement
+
+```sql
+  SELECT *
+    FROM [staff]
+   WHERE Surname = 'Smit';
+```
+
+If you are happy save your change, or undo
+
+```sql
+  COMMIT / ROLLBACK;
+```
+
 ---
 
 ## Useful Stuff
+
+### Commands & Tricks
+
+- COUNT() - returns the number of rows that matches a specified criteria.
+- SUM() - returns the total sum of a numeric column.
+- MAX() and MIN() - returns the largest/smallest value of the selected column.
+- GROUP BY and HAVING – groups the result-set by one or more columns.
+- UCASE and LCASE - converts the value of a field to uppercase/lowercase.
+- LEN() - returns the length of the value in a text field.
+- ROUND() - used to round a numeric field to the specified number of decimals.
+
+Copy with Headers:
+
+- On the result screen for a query – right click the top left corner and select ‘Copy with Headers’.
+- This allows you to copy the table (with column names!) for use in a program like Excel.
+
+### Date Functions
+
+### NULL
 
 ---
 
