@@ -31,6 +31,8 @@
 * [SQL](sql/README.md)
   * [Training Courses](sql/training/README.md)
     * [Basics of T-SQL Querying](sql/training/basic-tsql-querying.md)
+    * [Advanced T-SQL Querying](sql/training/advanced-tsql-querying.md)
+    * [SQL Server Configuration](sql/training/sql-server-configuration.md)
 * [Unix](unix/README.md)
 * [Virtual Machines](vms.md)
 * [Wallpapers](wallpapers.md)

@@ -1,1 +1,3 @@
-# Advanced T-SQL Querying
+# SQL Server Configuration
+
+todo

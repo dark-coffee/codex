@@ -342,7 +342,7 @@ SELECT
 - A JOIN allows you to select data from multiple tables using a link (Primary and Foreign Keys).
 - There are four types of `JOIN`, each with a different function. `LEFT JOIN` and `RIGHT JOIN` can return `NULL`.
 
-![Join Diagram](https://shadow.coffee/bucket/sql-server/basics-joins1.png)
+![Join Diagram](https://shadow.coffee/bucket/sql-server/basics-joins2.png)
 
 - Standard SQL syntax applies, meaning you can apply other clauses (such as `WHERE`) when needed.
 
@@ -374,7 +374,7 @@ INNER JOIN [table2] ON [table1].[columnname] = [table2].[columnname];
 
 ### Unions
 
-![Union Diagram](https://shadow.coffee/bucket/sql-server/basics-unions1.png)
+![Union Diagram](https://shadow.coffee/bucket/sql-server/basics-unions2.png)
 
 - A UNION will combine the results from multiple tables, removing any duplicate rows.
 - Useful if you want to see all the data from multiple tables in one result set.
