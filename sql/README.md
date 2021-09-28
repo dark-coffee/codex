@@ -9,9 +9,9 @@
 
 I've authored a series of training courses in my day:
 
-* [Microsoft SQL Server - Basics of T-SQL Querying](sql/training/basic-tsql-querying.md)
-* [Microsoft SQL Server - Advanced T-SQL Querying](sql/training/advanced-tsql-querying.md)
-* [Microsoft SQL Server - Configuraiton](sql/training/sql-server-configuration.md)
+* [Microsoft SQL Server - Basics of T-SQL Querying](training/basic-tsql-querying.md)
+* [Microsoft SQL Server - Advanced T-SQL Querying](training/advanced-tsql-querying.md)
+* [Microsoft SQL Server - Configuration](training/sql-server-configuration.md)
 
 ## Links
 
