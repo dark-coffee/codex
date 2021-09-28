@@ -5,15 +5,15 @@ Here's a breakdown of my boards!
 
 ## Keyboard Inventory
 
-| Keyboard                | Switches        | Keycaps         | Ranking |
-| ----------------------- | --------------- | --------------- | :-----: |
-| Preonic                 | Zealios         | MT3 /dev/tty    |    1    |
-| HHKB Pro 2              | Topre           | Stock Blank     |    2    |
-| Ergodox EZ              | Zealios         | Stock           |    3    |
-| KBC Pok3r               | Cherry MX Clear | MT3 Serika      |    4    |
-| Minivan                 | Gateron Blue    | Van Custom      |    5    |
-| Razer Blackwidow Chroma | Razer Green     | Stock           |    6    |
-| Gherkin                 | Cherry Black    | Pok3R + Sadster |    7    |
+| Keyboard                | Switches        | Keycaps         | Mods        | Ranking |
+| ----------------------- | --------------- | --------------- | ----------- | :-----: |
+| Preonic                 | Zealios         | MT3 /dev/tty    |             |    1    |
+| HHKB Pro 2              | Topre           | Stock Blank     |             |    2    |
+| Ergodox EZ              | Zealios         | Stock           |             |    3    |
+| KBC Pok3r               | Cherry MX Clear | MT3 Serika      | Wooden Case |    4    |
+| Minivan                 | Gateron Blue    | Van Custom      |             |    5    |
+| Razer Blackwidow Chroma | Razer Green     | Stock           |             |    6    |
+| Gherkin                 | Cherry Black    | Pok3R + Sadster |             |    7    |
 
 ## Keyboard Glamour Shots
 
