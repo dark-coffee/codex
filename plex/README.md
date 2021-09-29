@@ -45,9 +45,19 @@
 
 > In the context of this section, we will be **backing up** a legally purchased disc, and importing it into Plex.
 
+### Media Customisation
+
+#### Collections
+
+#### Posters
+
+- [theposterdb](https://theposterdb.com/)
+
 ## Playback
 
 ## Links
 
-[Plex](https://plex.tv)
-[MakeMKV](https://)
+- [Plex](https://plex.tv)
+- [/r/PlexPosters](https://reddit.com/r/plexposters)
+- [theposterdb](https://theposterdb.com/)
+- [MakeMKV](https://makemkv.com)
