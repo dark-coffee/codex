@@ -1,6 +1,6 @@
 # Plex Media Server
 
-![Plex Logo](https://shadow.coffee/bucket/plex/plex-logo-flat.png)
+![](https://shadow.coffee/bucket/plex/plex-logo-flat.png)
 
 > This guide details setup for a Plex Media Server. In the context of this guide, this will be used to host media that **you own**, rather than otherwise obtained media.  
 > Legalities regarding licencing of media differ on a per country basis, please refer to the laws in your area.
