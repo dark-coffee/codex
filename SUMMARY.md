@@ -26,6 +26,7 @@
 * [macOS](macos/README.md)
 * [minimalism](minimalism.md)
 * [Plants](plants/README.md)
+* [Plex](plex/README.md)
 * [PowerShell](cli/powershell.md)
 * [Privacy](privacy.md)
 * [SQL](sql/README.md)
