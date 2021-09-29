@@ -11,6 +11,12 @@
 | Hario v60 (White)                | Pourover |               |         |
 | Bialetti Stovetop Espresso Maker | Espresso |               |         |
 
+### Equipment Wishlist
+
+- Hario w60
+- Rocket Appartamento
+- Fellow Stagg EKG
+
 ## Equipment Glamour Shots
 
 Watch this space!
@@ -47,6 +53,9 @@ Coffee I want to try!
 ### Roasters
 
 - [200 Degrees](https://200degs.com)
+- [Square Mile Coffee Roasters](https://shop.squaremilecoffee.com)
+- [Ozone Coffee](https://ozonecoffee.co.uk/collections/coffee)
+- [Department of Coffee](https://www.departmentofcoffee.com)
 
 ### Youtube
 
