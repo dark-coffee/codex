@@ -129,6 +129,8 @@ Wait paitently for MakeMKV to process your disc.
 
 🥳 Congrats, your export is complete! 🎉
 
+Grab your exported folder, and drop it into the relevant media directory. Plex will pick it up immediately, or on the next library poll (depending on your settings).
+
 ## Media Customisation
 
 ### Collections
