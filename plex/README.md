@@ -1,6 +1,6 @@
 # Plex Media Server
 
-![](https://shadow.coffee/bucket/plex/plex-logo-flat.png)
+![ ](https://shadow.coffee/bucket/plex/plex-logo-flat.png)
 
 > This guide details setup for a Plex Media Server. In the context of this guide, this will be used to host media that **you own**, rather than otherwise obtained media.  
 > Legalities regarding licencing of media differ on a per country basis, please refer to the laws in your area.
@@ -10,6 +10,21 @@
 ## Setup & Configuration
 
 ### Setup
+
+My server is currently running on Ubuntu, and was installed using a binary. The downside to this method is that there is no ability to update the server from the console, all updates are manual.
+
+In future, I will probably roll my server using Docker, or use the snap version of Plex Media Server.  
+For Windows/macOS, I would use the .exe/.dmg version.
+
+#### Hardware
+
+My server is running on an Intel NUC (tall boi) with:
+
+- i5-10210U Frost Canyon
+- 16GB Corsair Vengeance DDR4 SO-DIMM
+- 250GB WD Blue M2 SSD (Operating System)
+- 1TB Samsung 860 EVO (Server Operations)
+- 4TB WD Red HDD (External to NUC - Media Drive)
 
 ### Configuration
 
@@ -71,25 +86,28 @@
 
 > In this section, we will be **backing up** a legally purchased disc, and importing it into Plex using MakeMKV.
 
-**Note**: DVD's come out in a great size, usually ~700MB. Blu-ray's are considerably larger, and will likely need re-encoding into a smaller filesize for ease of use/storage.
+**Note**: DVD's come out in a great size, usually ~700MB. Blu-ray's are considerably larger (~40GB), and will likely need re-encoding into a smaller filesize for ease of use/storage.
 
-### Media Customisation
+## Media Customisation
 
-#### Collections
+### Collections
 
-#### Posters
+### Posters
+
+![The best trilogy, with sweet posters!](https://shadow.coffee/bucket/plex/plex-posters.png)
 
 There are a couple of places to get great collections of posters, for that ultimate aesthetic library.
 
 - [theposterdb](https://theposterdb.com/)
 - [/r/PlexPosters](https://reddit.com/r/plexposters)
 
-#### Prerolls
+### Prerolls
 
-It's possible to set custom intros which will play before a movie. Prerolls are set in the **Extras** settings panel.  
-Setting a directory will force Plex to randomly choose a preroll video from the directory, else setting semi-colon separated paths will use those specific files. 
+![A Netflix Originals style preroll](https://shadow.coffee/bucket/plex/plex-preroll-small.gif)
 
-- [prerolls.video](https://prerolls.video/plex/)
+It's possible to set custom intros which will play before a movie. Prerolls are set in the *Extras settings panel*. Setting a directory will force Plex to randomly choose a preroll video from the directory, else setting semi-colon separated paths will use those specific files.
+
+A great source for video prerolls is [prerolls.video](https://prerolls.video/plex/) - it's where the one above is from!
 
 ## Playback
 
