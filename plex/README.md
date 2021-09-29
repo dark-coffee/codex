@@ -86,6 +86,11 @@ There are a couple of places to get great collections of posters, for that ultim
 
 #### Prerolls
 
+It's possible to set custom intros which will play before a movie. Prerolls are set in the **Extras** settings panel.  
+Setting a directory will force Plex to randomly choose a preroll video from the directory, else setting semi-colon separated paths will use those specific files. 
+
+- [prerolls.video](https://prerolls.video/plex/)
+
 ## Playback
 
 ## Links
