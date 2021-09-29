@@ -86,7 +86,48 @@ My server is running on an Intel NUC (tall boi) with:
 
 > In this section, we will be **backing up** a legally purchased disc, and importing it into Plex using MakeMKV.
 
-**Note**: DVD's come out in a great size, usually ~700MB. Blu-ray's are considerably larger (~40GB), and will likely need re-encoding into a smaller filesize for ease of use/storage.
+### Step One
+
+Get [MakeMKV](https://makemkv.com), a really nifty tool that can parse and export discs.  
+It's free whilst it's in beta (it's been in beta forever), but the licence is a trial, so you'll need to download an updated version occasionally.
+
+**Note:** DVD's come out in a great size, usually ~700MB. Blu-ray's are considerably larger (~40GB), and will likely need re-encoding into a smaller filesize for ease of use/storage.
+
+### Step Two
+
+Load MakeMKV. You'll need a built-in or external DVD/Blu-ray drive in order to get started with backing up discs. I like the Pioneer BD-RW BDR-XD05!  
+As for settings, I leave everything as default. Make sure `DVD structure` is set to auto, and `minimum title length` is 120s.  
+
+![ ](https://shadow.coffee/bucket/plex/plex-makemkv-1.png)
+
+### Step Three
+
+Insert the disc, and select the drive icon.  
+
+![ ](https://shadow.coffee/bucket/plex/plex-makemkv-2.png)
+
+MakeMKV will parse the disc, figure out how to open it, and lead you to step four.
+
+![ ](https://shadow.coffee/bucket/plex/plex-makemkv-3.png)
+
+### Step Four
+
+Here you'll want to select your title (the biggest one is normally the one you want 😉), any audio streams, and any subtitles you want (which will come in handy for Plex).  
+Select and name your export folder - I've named mine with the imdb-tt code which will make it easier on the Plex matching engine.
+
+Once you've selected everything you want, hit the **MakeMKV** button. 
+
+![ ](https://shadow.coffee/bucket/plex/plex-makemkv-4.png)
+
+### Step Five
+
+Wait paitently for MakeMKV to process your disc.
+
+![ ](https://shadow.coffee/bucket/plex/plex-makemkv-5.png)
+
+### Step Six
+
+🥳 Congrats, your export is complete! 🎉
 
 ## Media Customisation
 
