@@ -1,21 +1,20 @@
 # Adblocking
 
-## Pihole
+## Pi-hole
 
-Pi-hole is a DNS-based adblocker for your network. Think of it as /etc/hosts on steriods.
+Pi-hole is a DNS-based adblocker for your network. Think of it as /etc/hosts on steriods.  
 *no, you can't block youtube ads*
 
 ### Personal Blocklists
 
 I maintain a list of the blocklists I use, [here](https://github.com/dark-coffee/keylime)
 
-### Pihole on Docker
+### Pi-hole on Docker
 
 Here's a docker-compose containg the useful info to spawn a pi-hole container.
 
-**Important:** this is a generic pi-hole installation, with some personal preferences.  
-DNS points to the malware-blocking cloudflare resolver, but I can also highly recommend Quad9.  
-To persist data, the container mounts the host locations `./etc-pihole/` &  `./etc-dnsmaq.d/`
+> **Important:** this is a generic pi-hole installation, with some personal preferences.  
+>DNS points to the malware-blocking Cloudflare resolver, but I can also highly recommend Quad9.  
 
 ```yml
 version: "3.3"
@@ -49,6 +48,10 @@ services:
     restart: unless-stopped
 
 ```
+
+To persist data, the container mounts the host locations `./etc-pihole/` &  `./etc-dnsmaq.d/`
+
+To combat iCloud Private Relay, which bypasses pihole, the additional option `BLOCK_ICLOUD_PR: "true"` has now been added.
 
 ### Links
 

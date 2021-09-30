@@ -60,5 +60,6 @@ Coffee I want to try!
 ### Youtube
 
 - [James Hoffman](https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ) - King of Coffee (and weird coffee tests)
+- [MorganDrinksCoffee](https://www.youtube.com/c/MorganDrinksCoffee)
 - [Peaceful Cuisine](https://www.youtube.com/channel/UCQBG3PzyQKY8ieMG2gDAyOQ)
 - [Seattle Coffee Gear](https://www.youtube.com/c/Seattlecoffeegearinfo)
