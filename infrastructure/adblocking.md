@@ -35,6 +35,7 @@ services:
       ServerIP: "<ip-address>"
       PIHOLE_DNS_: "1.1.1.2;1.0.0.2"
       DNSSEC: "true"
+      BLOCK_ICLOUD_PR: "true"
       WEBUIBOXEDLAYOUT: "traditional"
       WEBTHEME: "default-dark"
       REV_SERVER: "true"
