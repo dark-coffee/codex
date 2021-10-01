@@ -9,6 +9,7 @@ For Windows this requires the installation of WSL2.
 ## Docker-Compose
 
 - yaml files
+- `docker-compose up -d`
 
 ### SQL Server
 
