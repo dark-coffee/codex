@@ -8,8 +8,8 @@ For Windows this requires the installation of WSL2.
 
 ## Docker-Compose
 
-- yaml files
-- `docker-compose up -d`
+- Compose files are written in YAML, and define the containers, their parameters, and how they operate
+- To run a compose file, use `docker-compose up -d`
 
 ### SQL Server
 
