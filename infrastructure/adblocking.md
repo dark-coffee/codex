@@ -3,7 +3,7 @@
 ## Pi-hole
 
 Pi-hole is a DNS-based adblocker for your network. Think of it as /etc/hosts on steriods.  
-*no, you can't block youtube ads*
+_no, you can't block youtube ads_
 
 ### Personal Blocklists
 
@@ -14,7 +14,7 @@ I maintain a list of the blocklists I use, [here](https://github.com/dark-coffee
 Here's a docker-compose containg the useful info to spawn a pi-hole container.
 
 > **Important:** this is a generic pi-hole installation, with some personal preferences.  
->DNS points to the malware-blocking Cloudflare resolver, but I can also highly recommend Quad9.  
+> DNS points to the malware-blocking Cloudflare resolver, but I can also highly recommend Quad9.
 
 ```yml
 version: "3.3"
@@ -46,16 +46,23 @@ services:
     cap_add:
       - NET_ADMIN
     restart: unless-stopped
-
 ```
 
-To persist data, the container mounts the host locations `./etc-pihole/` &  `./etc-dnsmaq.d/`
+To persist data, the container mounts the host locations `./etc-pihole/` & `./etc-dnsmaq.d/`
 
-To combat iCloud Private Relay, which bypasses pihole, the additional option `BLOCK_ICLOUD_PR: "true"` has now been added.
+> To combat iCloud Private Relay, which bypasses pihole, the additional option `BLOCK_ICLOUD_PR: "true"` has now been added.
+
+**File Breakdown:**
+| Element | Meaning |
+| ------- | ------- |
+| TZ | Standard Format Timezone |
+| WEBPASSWORD | Web Console Password |
+| PIHOLE_DNS_ | Target DNS Servers (Pihole will forward requests to these addresses |
+| BLOCK_ICLOUD_PR | Drop iCloud Private Relay DNS Requests |
 
 ### Links
 
-* [Pi-Hole](https://pi-hole.net) - The official Pi-Hole website
-* [Firebog.net](https://firebog.net) - a great selection of blocklists
-* [1.1.1.2](https://one.one.one.one/family/) - Cloudflare's DNS resolver site
-* [Quad9](https://www.quad9.net) - Quad9 homepage
+- [Pi-Hole](https://pi-hole.net) - The official Pi-Hole website
+- [Firebog.net](https://firebog.net) - a great selection of blocklists
+- [1.1.1.2](https://one.one.one.one/family/) - Cloudflare's DNS resolver site
+- [Quad9](https://www.quad9.net) - Quad9 homepage
