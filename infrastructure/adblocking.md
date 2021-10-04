@@ -57,8 +57,9 @@ To persist data, the container mounts the host locations `./etc-pihole/` & `./et
 | ------- | ------- |
 | TZ | Standard Format Timezone |
 | WEBPASSWORD | Web Console Password |
-| PIHOLE_DNS_ | Target DNS Servers (Pihole will forward requests to these addresses |
+| PIHOLE_DNS_ | Target DNS Servers (Pihole will forward all non-blocked requests to these addresses |
 | BLOCK_ICLOUD_PR | Drop iCloud Private Relay DNS Requests |
+| WEBTHEME| Theme used by Web Console |
 
 ### Links
 
