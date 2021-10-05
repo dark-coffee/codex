@@ -19,8 +19,6 @@ I exist elsewhere on the internet, mainly:
 
 ***
 
-## Beep Boop 🤖
-
-### Detective Meep Morp
+## Detective Meep Morp
 
 [![Link Snitch](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml/badge.svg)](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml)
