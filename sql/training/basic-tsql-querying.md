@@ -515,15 +515,106 @@ Copy with Headers:
 
 ### Date Functions
 
+The most difficult part when working with dates is to be sure that the format of the date you are trying to insert, matches the format of the date column in the database.
+SQL can interpret dates in different formats, and will for the most part figure out what you mean when using a SELECT statement. INSERT / UPDATE is trickier.
+| Command    | Result                                                       | Example                                  |
+|------------|--------------------------------------------------------------|------------------------------------------|
+| GETDATE()  | Returns the date in this format:                             | `YYYY-MM-DD- HH:MM:SS.MSS`               |
+| DATEDIFF() | Returns the number of days between two dates.                | `DATEDIFF(datepart, startdate, enddate)` |
+| DATEPART() | Returns a single part of a date/time. Accepts abbreviations. | `DATEPART(datepart, date)`               |
+| DATEADD()  | Adds or subtracts a specified time interval from a date.     | `DATEADD(datepart, number, date)`        |
+
 ### NULL
+
+NULL does not mean blank (‘’ or ‘ ‘), NULL means empty. Nothing. Zilch. Squat. 
+NULL is commonly used in other places than SQL, but mostly with the same purpose. 
+In Linux if you pipe to /dev/null, you have sent that information to the void. 
+PowerShell has a $NULL variable, you can use this to compare against other values. 
+
+ISNULL vs NULL  
+NULL will only return data where the column you specify is actually NULL.
+ISNULL will return data where the column you specify is blank or actually NULL.
+IS NOT NULL will return data where the column is not NULL.
 
 ---
 
 ## Exercises
 
+- This demonstration has three exercises, consisting of multiple parts.
+- For data, we’ll be using the Microsoft AdventureWorks database; Specifically the HumanResources.Employee Table (for funsies).
+
+### Exercise 1
+
+Using the AdventureWorks DB, HumanResources.Employee Table
+
+1. Show only the DISTINCT data from the OrganizationLevel column.
+2. Show all Research and Development Managers.
+3. Show all Senior Tool Designers or Senior Design Engineers.
+4. How many Female, Tool Designers are there?
+5. Without saving, update the Job Title of the staff member who’s BusinessEntityID is 110.
+6. Undo this change.
+
+### Exercise 2
+
+Using the AdventureWorks DB, HumanResources.Employee Table
+
+1. Show all staff who are Male and Single.
+2. How many staff members does the organisation have?
+3. Manager X wants a report, but doesn’t need all of the table information. Show only the JobTitle, MaritalStatus, Gender and VacationHours of all staff.
+4. Manager X now wants to see all Married, Female staff members have their VacationHours reduced to 15.
+5. This is *seriously* wrong, so undo that change.
+
+### Exercise 3
+
+Using the AdventureWorks DB, HumanResources.Employee Table
+
+1. Show all staff members where their Hiredate is between 2005-01-01 and 2008-12-30.
+2. How many staff members is this?
+3. Some of these staff have already left. We’re firing the rest. Set their SalariedFlag to 0, and save the change.
+
 ---
 
 ## Wrap Up
+
+### IDEs
+
+If you do not use Management Studio in your role but another software to write your queries, you can use Notepad++ to help write your queries beforehand. N++ will allow you to save and edit .SQL files.  
+Visual Studio Code is a good, all-round code editor (made by Microsoft), and will natively handle .SQL files and queries, and offer suggestions to correct mistakes and formatting issues. There is an extension that will allow you to query a database.
+For the Mac users, SSMS doesn’t exist but you can use TablePlus (is very good, and free to a point). 
+JetBrains DataGrip - £69.00, but is cross platform and has some neat features.
+
+#### Links
+
+- [Notepad++](https://notepad-plus-plus.org/)
+- [Visual Studio Code](https://aka.ms/vscode/)
+- [TablePlus](https://tableplus.com/)
+- [DataGrip](https://www.jetbrains.com/datagrip/)
+
+### SQL Server Stuff
+
+There are 2 free versions of SQL server:
+
+- SQL Express (limited database size (10GB), and functionality but you can use it for whatever you want).
+- SQL Developer Edition (fully featured and free – provided that you do not use it for a production environment).
+
+You can also download free databases to play with:
+
+- Microsoft has AdventureWorks.
+- Stack Overflow has a copy of their forums (varying in size – 10GB, 50GB or 180GB).
+
+#### Links
+
+- [SQL Server Express Edition](https://go.microsoft.com/fwlink/?linkid=866658)
+- [SQL Server Developer Edition](https://go.microsoft.com/fwlink/?linkid=866662)
+- [AdventureWorks](https://aka.ms/adventureworks)
+- Stack Overflow: [10GB](https://downloads.brentozar.com/StackOverflow2010.7z)  |  [50GB](https://downloads.brentozar.com/StackOverflow2013_201809117.7z)  |  [180GB](https://downloads.brentozar.com.s3.amazonaws.com/StackOverflow_Training.torrent) (this is via BitTorrent as it’s so big*)
+
+> *This is actually a legitimate use of P2P transfers, as you’re not pirating anything.
+
+### Additional Training Materials
+
+- [SQL Tutorials](https://www.w3schools.com/sql/)
+- [Pluralsight T-SQL Query Course](https://app.pluralsight.com/paths/skill/querying-data-with-t-sql-from-sql-server)
 
 ---
 
@@ -532,3 +623,7 @@ Copy with Headers:
 - When writing longer queries, it is easier to break the query onto multiple lines, as in the example above. This makes it easier to spot errors, and provides a visual break.
 - Some SQL tools will perform a sanity check on your query, and notify you of some types of error.
 - SQL is _very_ literal, and will perform exactly as asked – if there is a typo in your query, it could error or have unintended consequences.
+
+---
+
+## Course Links
