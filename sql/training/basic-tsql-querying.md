@@ -500,13 +500,13 @@ If you are happy save your change, or undo
 
 ### Commands & Tricks
 
-- COUNT() - returns the number of rows that matches a specified criteria.
-- SUM() - returns the total sum of a numeric column.
-- MAX() and MIN() - returns the largest/smallest value of the selected column.
-- GROUP BY and HAVING – groups the result-set by one or more columns.
-- UCASE and LCASE - converts the value of a field to uppercase/lowercase.
-- LEN() - returns the length of the value in a text field.
-- ROUND() - used to round a numeric field to the specified number of decimals.
+- `COUNT()` - returns the number of rows that matches a specified criteria.
+- `SUM()` - returns the total sum of a numeric column.
+- `MAX()` and `MIN()` - returns the largest/smallest value of the selected column.
+- `GROUP BY` and `HAVING` – groups the result-set by one or more columns.
+- `UCASE` and `LCASE` - converts the value of a field to uppercase/lowercase.
+- `LEN()` - returns the length of the value in a text field.
+- `ROUND()` - used to round a numeric field to the specified number of decimals.
 
 Copy with Headers:
 
