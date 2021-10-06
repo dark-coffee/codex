@@ -45,11 +45,15 @@ volumes:
 
 **File Breakdown:**
 
-| Element     | Meaning                                            |
-| ----------- | -------------------------------------------------- |
-| ACCEPT_EULA | End User Licence Agreement Acceptance Confirmation |
-| MSSQL_PID   | Version of SQL Server to Run (see licencing)       |
-| SA_PASSWORD | Sysadmin Password                                  |
+| Element                                     | Meaning                                                     |
+| ------------------------------------------- | ----------------------------------------------------------- |
+| ACCEPT_EULA                                 | End User Licence Agreement Acceptance Confirmation          |
+| MSSQL_PID                                   | Version of SQL Server to Run (see licencing)                |
+| SA_PASSWORD                                 | Sysadmin Password                                           |
+| volumes: "sql-data:/var/opt/mssql/data"     | Location to map the SQL Data to                             |
+| volumes: "sql-data:/var/opt/mssql/log"      | Location to map the SQL Logs to                             |
+| volumes: "sql-data:/var/opt/mssql/secrets"  | Location to map secrets to                                  |
+| volumes: sql-data:                          | Create/map the volume for SQL data                          |
 
 #### Restoring Databases using T-SQL
 
