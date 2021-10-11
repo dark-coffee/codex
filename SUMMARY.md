@@ -30,6 +30,7 @@
 * [PowerShell](cli/powershell.md)
 * [Privacy](privacy.md)
 * [SQL](sql/README.md)
+  * [Troubleshooting](sql/troubleshooting.md)
   * [Training Courses](sql/training/README.md)
     * [Basics of T-SQL Querying](sql/training/basic-tsql-querying.md)
     * [Advanced T-SQL Querying](sql/training/advanced-tsql-querying.md)
