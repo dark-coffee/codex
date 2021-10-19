@@ -1,5 +1,7 @@
 # Remote Work
 
+I'm fortunate enough to be a remote worker. A global pandemic helped to push me in that direction, sprinkle in a couple of career decisions, and here we are. Outside of a couple of meetings scattered across the country, I'm 100% remote.
+
 ## Environment
 
 ### Setup
@@ -7,6 +9,8 @@
 ### Utilities
 
 - [miro](https://miro.com) - interactive collaborative whiteboard software
+
+## Tips
 
 ## Links
 
