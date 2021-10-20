@@ -6,9 +6,12 @@ I'm fortunate enough to be a remote worker. A global pandemic helped to push me 
 
 ### Setup
 
+- [Samsung 49 inch Ultrawide Monitor](https://www.amazon.co.uk/Samsung-LC49RG90SSRXXU-Curved-Gaming-Monitor/dp/B08WWL7CC9) - so shiny and good and will burn out your retinas at full brightness
+
 ### Utilities
 
 - [miro](https://miro.com) - interactive collaborative whiteboard software
+- [Goodnotes 5](https://goodnotes.com) - a great notetaking app for Apple devices. I find it incredibly useful, and use it for my daily to-do, and any notes I'm taking as I'm working.
 
 ## Tips
 
