@@ -13,6 +13,7 @@
 
 ## List of Accepted Verbs
 
+### Common Verbs
 
 | Verb        | Group          |
 |-------------|----------------|
@@ -50,6 +51,11 @@
 | Undo        | Common         |
 | Unlock      | Common         |
 | Watch       | Common         |
+
+### Data Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Backup      | Data           |
 | Checkpoint  | Data           |
 | Compare     | Data           |
@@ -74,6 +80,11 @@
 | Sync        | Data           |
 | Unpublish   | Data           |
 | Update      | Data           |
+
+### Lifecycle Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Approve     | Lifecycle      |
 | Assert      | Lifecycle      |
 | Complete    | Lifecycle      |
@@ -94,6 +105,11 @@
 | Uninstall   | Lifecycle      |
 | Unregister  | Lifecycle      |
 | Wait        | Lifecycle      |
+
+### Diagnostic Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Debug       | Diagnostic     |
 | Measure     | Diagnostic     |
 | Ping        | Diagnostic     |
@@ -101,16 +117,31 @@
 | Resolve     | Diagnostic     |
 | Test        | Diagnostic     |
 | Trace       | Diagnostic     |
+
+### Communication Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Connect     | Communications |
 | Disconnect  | Communications |
 | Read        | Communications |
 | Receive     | Communications |
 | Send        | Communications |
 | Write       | Communications |
+
+### Security Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Block       | Security       |
 | Grant       | Security       |
 | Protect     | Security       |
 | Revoke      | Security       |
 | Unblock     | Security       |
 | Unprotect   | Security       |
+
+### Other Verbs
+
+| Verb        | Group          |
+|-------------|----------------|
 | Use         | Other          |
