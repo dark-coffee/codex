@@ -23,3 +23,12 @@ To install the S3 toolset:
 ```powershell
 Install-AWSToolsModule S3
 ```
+
+### Configuring a Profile
+
+```powershell
+Set-AWSCredential `
+    -AccessKey [access key]
+    -SecretKey [secret access key]
+    -StoreAs [friendly name]
+```
