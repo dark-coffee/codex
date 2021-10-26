@@ -9,11 +9,17 @@ AWS have created a tools management utility, **AWS.Tools.Installer**, which allo
 To install the AWS PowerShell CLI Tools Installer:
 
 ```powershell
-  Install-Module AWS.Tools.Installer
+Install-Module AWS.Tools.Installer
 ```
 
 To install the common toolset:
 
 ```powershell-interactive
-  Install-AWSToolsModule Common
+Install-AWSToolsModule Common
+```
+
+To install the S3 toolset:
+
+```powershell
+Install-AWSToolsModule S3
 ```
