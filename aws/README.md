@@ -26,6 +26,8 @@ Install-AWSToolsModule S3
 
 ### Configuring a Profile
 
+To store credentials for later use, you can setup a profile. To use the profile in another command, call the `-ProfileName` paremeter, and supply the **friendly name** of your profile.
+
 ```powershell
 Set-AWSCredential `
     -AccessKey [access key]
