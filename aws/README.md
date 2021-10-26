@@ -11,3 +11,9 @@ To install the AWS PowerShell CLI Tools Installer:
 ```powershell
   Install-Module AWS.Tools.Installer
 ```
+
+To install the common toolset:
+
+```powershell-interactive
+  Install-AWSToolsModule Common
+```
