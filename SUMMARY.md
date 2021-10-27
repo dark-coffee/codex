@@ -5,6 +5,7 @@
 * [Ascii](ascii.md)
 * [AWS](aws/README.md)
   * [Certs](aws/certs/README.md)
+    * [CCP](aws/certs/ccp.md)
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
   * [zsh](cli/zsh.md)
