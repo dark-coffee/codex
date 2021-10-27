@@ -4,6 +4,7 @@
 * [Meta](META.md)
 * [Ascii](ascii.md)
 * [AWS](aws/README.md)
+  * [Certs](aws/certs/README.md)
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
   * [zsh](cli/zsh.md)
