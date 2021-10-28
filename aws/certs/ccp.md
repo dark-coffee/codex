@@ -6,7 +6,7 @@ These are my notes from part one of the CLF-C01 Pluralsight Path
 
 ---
 
-# Course Overview
+## Course Overview
 
 This course will cover:
 
@@ -17,11 +17,11 @@ This course will cover:
 
 ---
 
-# Understanding Cloud Computing
+## Understanding Cloud Computing
 
 Saturday 24th July 2021
 
-## Overview
+### Overview
 
 This Pluralsight course contains:
 
@@ -30,9 +30,9 @@ This Pluralsight course contains:
 - An exam prep course, including tips and sample questions
 - There are exercise files included alongside the course
 
-## Setting up an AWS Account
+### Setting up an AWS Account
 
-### Creating a new personal AWS Account
+#### Creating a new personal AWS Account
 
 1. Navigate to the [AWS Homepage](https://aws.amazon.com)
 2. Select 'Create an AWS account'
@@ -42,11 +42,11 @@ This Pluralsight course contains:
 6. Choose to verify the account using an sms message
 7. Select the free, basic support plan
 
-### Activating the new account
+#### Activating the new account
 
 To activate the account, we sign into the portal using our email address and password
 
-### Configuring a budget alert for the account
+#### Configuring a budget alert for the account
 
 To configure a budget:
 
@@ -67,7 +67,7 @@ Once the budget is configured, we can configure our alerts:
 
 This has created a budget that will notify us when we hit 8.00 of usage costs.
 
-## Traditional Data Centers
+### Traditional Data Centers
 
 **Requires a large up-front investment in hardware** - and either building a data center or renting space in one.
 
@@ -79,7 +79,7 @@ This has created a budget that will notify us when we hit 8.00 of usage costs.
 
 **You own all of the security and compliance burden** - no-one wants to be sued for being hacked. That entire responsibility rests on our shoulders.
 
-## Benefits of Cloud Computing
+### Benefits of Cloud Computing
 
 **Trade capital expense for variable expense** - we don't pay for whole servers, just for cloud servers whilst we're using them.
 
@@ -102,12 +102,12 @@ Concepts we need to know:
 
 > **_Agility_**: _The cloud lowers the cost of trying new ideas or business processes. It reduces the time required to maintain infrastructure. The cloud also reduces risk for the organization around security and compliance, and provides access to emerging technologies._
 
-## Types of Cloud Computing
+### Types of Cloud Computing
 
 > **\*Cloud computing** is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing."\*
 > Amazon Web Services
 
-### Cloud Computing Models
+#### Cloud Computing Models
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png)
 
@@ -117,7 +117,7 @@ Concepts we need to know:
 
 **Software as a Service (SaaS)** - a piece of software that we can run with, we don't need to worry about maintenance at all.
 
-### Cloud Deployment Models
+#### Cloud Deployment Models
 
 **Public Cloud** - Deployed onto a public cloud provider like AWS/Azure/GCloud.
 
@@ -125,9 +125,9 @@ Concepts we need to know:
 
 **Hybrid** - Cloud applications connected to a private data center.
 
-## Cloud Computing Scenarios
+### Cloud Computing Scenarios
 
-### Scenario 1
+#### Scenario 1
 
 - Roger's company runs several production workloads in its data center.
   - They are using VMware to manage infrastructure in their data center.
@@ -136,7 +136,7 @@ Concepts we need to know:
 
 Hybrid Cloud
 
-### Scenario 2
+#### Scenario 2
 
 - Eliza's company is trying to decide whether to fund a new line of business.
   - Eliza's team is looking to monetize a new emerging technology.
@@ -145,7 +145,7 @@ Hybrid Cloud
 
 Agility, specifically Pay-As-You-Go
 
-### Scenario 3
+#### Scenario 3
 
 - Jennifer is the CTO at an insurance company.
   - They are considering moving to the cloud instead of colocating servers.
@@ -154,7 +154,7 @@ Agility, specifically Pay-As-You-Go
 
 Infrastructure as a Service (IaaS)
 
-## Summary
+### Summary
 
 During this module of the course, we:
 
