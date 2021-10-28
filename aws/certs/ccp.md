@@ -1,6 +1,6 @@
 # Certified Cloud Practitioner
 
-This is part one of the CLF-C01 Pluralsight Path
+These are my notes from part one of the CLF-C01 Pluralsight Path
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37cc9d0f-4825-491e-9959-487677a3c1cd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37cc9d0f-4825-491e-9959-487677a3c1cd/Untitled.png)
 
