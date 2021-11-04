@@ -14,16 +14,18 @@ set preferred dns server under nameserver x.x.x.x
 
 `ufw allow 22` isn't the same as `ufw allow ssh`
 
-`ufw limit ssh`
+`ufw limit ssh` prevents abuse of ssh connections
 
 ## User Management
 
 ### Adding users 
+
 ```bash
 adduser
 ```
 
 ### Removing users
+
 ```bash
 userdel
 ```
