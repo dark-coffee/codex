@@ -9,3 +9,17 @@ Here's how to do it:
 2. Enter ```slmgr.vbs /upk```. This uninstalls the currently intalled product key (if one exists).  
 3. Enter ```slmgr.vbs /ipk [product key]```. This installs the product key for the required version.  
 4. Enter ```slmgr.vbs /ato```. This attempts online activation.
+
+### Product Keys
+
+| Product | Key | 
+|---------|---------|
+| Home    | |
+| Home N ||
+| Home Single Language||
+| Home Single Country||
+| Pro ||
+| Pro N ||
+| Education ||
+| Enterprise ||
+| Enterprise N |
