@@ -45,4 +45,5 @@
   * [Movies](watchlist/movies.md)
   * [TV Shows](watchlist/tv-series.md)
 * [Windows](windows/README.md)
+  * [Windows 10](windows/windows10/README.md)
   * [Windows 11](windows/windows11/README.md)
