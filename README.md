@@ -22,3 +22,5 @@ I exist elsewhere on the internet, mainly:
 ## Detective Meep Morp
 
 [![Link Snitch](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml/badge.svg)](https://github.com/dark-coffee/cortex/actions/workflows/link-snitch.yml)
+
+^ This is a snitch workflow to detect broken links. If it's "Failing" something has gone wrong - I probably know exactly what it is but haven't gotten around to fixing it yet 😁
