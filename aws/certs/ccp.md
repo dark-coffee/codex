@@ -672,33 +672,3 @@ During this module, we have:
 Don't sign up for the certification until completing the path! The path will cover getting signed up for the exam, and how to get ready for taking the plan.
 
 Study the notes, including the downloaded notes package!
-
-Don't skip the last course in the path!
-
----
-
-# Path Learning Check
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00306180-4a0c-4f42-8211-621c39e3effe/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00306180-4a0c-4f42-8211-621c39e3effe/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c12856ba-958a-43ef-a373-c91a6fa443d9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c12856ba-958a-43ef-a373-c91a6fa443d9/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e022bde6-09c7-4210-90bc-53ac7a6e7d7e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e022bde6-09c7-4210-90bc-53ac7a6e7d7e/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac822760-fdcb-473e-b0d0-ef06e05f794f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac822760-fdcb-473e-b0d0-ef06e05f794f/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bd1d38e-bd2c-4ee8-979b-a33e4381cf17/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5bd1d38e-bd2c-4ee8-979b-a33e4381cf17/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9398b3a7-cfa9-4e02-b27a-48dd619a80df/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9398b3a7-cfa9-4e02-b27a-48dd619a80df/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddf93bb2-d49d-4e80-b6b9-93f0f7129918/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddf93bb2-d49d-4e80-b6b9-93f0f7129918/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/152f2b89-c508-4f49-9fe5-ac054a795c22/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/152f2b89-c508-4f49-9fe5-ac054a795c22/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/120e2235-9e2c-4a9f-95e5-ea8c4937ca6a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/120e2235-9e2c-4a9f-95e5-ea8c4937ca6a/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dfd82d20-cb21-4f58-921f-4a8b4b5a4940/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dfd82d20-cb21-4f58-921f-4a8b4b5a4940/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c00f184-c57f-4250-8f4a-6dc5b979f685/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c00f184-c57f-4250-8f4a-6dc5b979f685/Untitled.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61e0b053-ecc4-4000-b462-a31a07ea323a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/61e0b053-ecc4-4000-b462-a31a07ea323a/Untitled.png)
