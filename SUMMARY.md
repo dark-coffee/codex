@@ -6,6 +6,7 @@
 * [AWS](aws/README.md)
   * [Certs](aws/certs/README.md)
     * [CCP](aws/certs/CCP/README.md)
+      * [Fundamental Cloud Concepts for AWS](aws/certs/CCP/ccp.md)
       * [Understanding AWS Core Services](aws/certs/CCP/CCP2.md)
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
