@@ -95,16 +95,16 @@ This has created a budget that will notify us when we hit 8.00 of usage costs.
 
 Concepts we need to know:
 
-> **_Elasticity_** is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.\*
+> **_Elasticity_** _is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.\*
 > Well-Architected Framework, Amazon Web Services._
 
-> **_Reliability** is a solution's ability to provide functionality for its users when it is needed. Amazon's global infrastructure is built to maximize reliability for your cloud workloads._
+> **_Reliability_** _is a solution's ability to provide functionality for its users when it is needed. Amazon's global infrastructure is built to maximize reliability for your cloud workloads._
 
-> **_Agility**: The cloud lowers the cost of trying new ideas or business processes. It reduces the time required to maintain infrastructure. The cloud also reduces risk for the organization around security and compliance, and provides access to emerging technologies._
+> **_Agility_**: _The cloud lowers the cost of trying new ideas or business processes. It reduces the time required to maintain infrastructure. The cloud also reduces risk for the organization around security and compliance, and provides access to emerging technologies._
 
 ### Types of Cloud Computing
 
-> **_Cloud computing** is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing."_
+> **_Cloud computing_** _is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing."_
 > Amazon Web Services
 
 #### Cloud Computing Models
