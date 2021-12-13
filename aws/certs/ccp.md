@@ -95,27 +95,27 @@ This has created a budget that will notify us when we hit 8.00 of usage costs.
 
 Concepts we need to know:
 
-> **\*Elasticity** is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.\*
-> Well-Architected Framework, Amazon Web Services
+> **_Elasticity_** is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically.\*
+> Well-Architected Framework, Amazon Web Services._
 
-> **\*Reliability** is a solution's ability to provide functionality for its users when it is needed. Amazon's global infrastructure is built to maximize reliability for your cloud workloads.\*
+> **_Reliability** is a solution's ability to provide functionality for its users when it is needed. Amazon's global infrastructure is built to maximize reliability for your cloud workloads._
 
-> **_Agility_**: _The cloud lowers the cost of trying new ideas or business processes. It reduces the time required to maintain infrastructure. The cloud also reduces risk for the organization around security and compliance, and provides access to emerging technologies._
+> **_Agility**: The cloud lowers the cost of trying new ideas or business processes. It reduces the time required to maintain infrastructure. The cloud also reduces risk for the organization around security and compliance, and provides access to emerging technologies._
 
 ### Types of Cloud Computing
 
-> **\*Cloud computing** is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing."\*
+> **_Cloud computing** is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as-you-go pricing."_
 > Amazon Web Services
 
 #### Cloud Computing Models
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png)
 
-**Infrastructure as a Service (IaaS)** - full access to cloud servers, we can completely configure them how we want, but need to fully maintain the servers ourselves.
-
-**Platform as a Service (PaaS)** - we have a service that is configured for us, and we just need to deploy our customization onto it.
-
-**Software as a Service (SaaS)** - a piece of software that we can run with, we don't need to worry about maintenance at all.
+|Model|Description|
+|-----|-----------|
+|**Infrastructure as a Service (IaaS)**| Full access to cloud servers, we can completely configure them how we want, but need to fully maintain the servers ourselves.|
+|**Platform as a Service (PaaS)**| We have a service that is configured for us, and we just need to deploy our customization onto it. |
+|**Software as a Service (SaaS)**| A piece of software that we can run with, we don't need to worry about maintenance at all.|
 
 #### Cloud Deployment Models
 
@@ -134,7 +134,7 @@ Concepts we need to know:
   - They want to use AWS and integrate it with their data center for new workloads.
 - Which cloud deployment model would they be following?
 
-Hybrid Cloud
+```Hybrid Cloud```
 
 #### Scenario 2
 
@@ -143,7 +143,7 @@ Hybrid Cloud
   - This new line of business will require new infrastructure.
 - What benefit of cloud computing would be most relevant to her company?
 
-Agility, specifically Pay-As-You-Go
+```Agility, specifically Pay-As-You-Go```
 
 #### Scenario 3
 
@@ -152,7 +152,7 @@ Agility, specifically Pay-As-You-Go
   - They want to make sure they have the maximum control of the cloud servers.
 - Which cloud computing model would they need to leverage?
 
-Infrastructure as a Service (IaaS)
+```Infrastructure as a Service (IaaS)```
 
 ### Summary
 
