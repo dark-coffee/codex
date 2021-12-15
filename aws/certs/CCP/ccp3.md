@@ -1,12 +1,6 @@
-# Introduction to Security and Architecture on AWS
+# Introduction to Security & Architecture
 
-Created: August 1, 2021 11:22 AM
-Tags: CLF-C01, certifications, pluralsight
-
-<aside>
-3️⃣ This is part three of the Pluralsight CLF-C01 path
-
-</aside>
+```3️⃣ This is part three of the Pluralsight CLF-C01 path```
 
 ![Introduction%20to%20Security%20and%20Architecture%20on%20AWS%202eb1275312a74ea1ae4b90fd7e7867fa/Untitled.png](Introduction%20to%20Security%20and%20Architecture%20on%20AWS%202eb1275312a74ea1ae4b90fd7e7867fa/Untitled.png)
 
