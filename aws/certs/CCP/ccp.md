@@ -2,7 +2,7 @@
 
 These are my notes from part one of the CLF-C01 Pluralsight Path
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37cc9d0f-4825-491e-9959-487677a3c1cd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37cc9d0f-4825-491e-9959-487677a3c1cd/Untitled.png)
+![.](https://darkcoffee-cortex.s3.amazonaws.com/89BE924C8229C07E705F781FA4E34EC3/FA0218E0122730468181AA14FAC08B24.png)
 
 ---
 
