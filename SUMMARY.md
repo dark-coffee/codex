@@ -8,6 +8,7 @@
     * [CCP](aws/certs/CCP/README.md)
       * [Fundamental Cloud Concepts for AWS](aws/certs/CCP/ccp.md)
       * [Understanding AWS Core Services](aws/certs/CCP/CCP2.md)
+      * [Introduction to Security & Architecture](aws/certs/CCP/ccp3.md)
 * [CLI](cli/README.md)
   * [PowerShell](cli/powershell.md)
   * [zsh](cli/zsh.md)
