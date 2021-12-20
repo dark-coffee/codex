@@ -5,7 +5,7 @@
 * [Ascii](ascii.md)
 * [AWS](aws/README.md)
   * [Certs](aws/certs/README.md)
-    * [CCP](aws/certs/CCP/README.md)
+    * [Cloud Certified Practitioner (CCP)](aws/certs/CCP/README.md)
       * [Fundamental Cloud Concepts](aws/certs/CCP/ccp.md)
       * [Understanding AWS Core Services](aws/certs/CCP/CCP2.md)
       * [Intro to Security & Architecture](aws/certs/CCP/ccp3.md)
