@@ -119,4 +119,5 @@ Symbols: ❌ ✅ 👍 👎
 | The Holidate                             |      | Holiday |        | ❌      |
 | The Muppets Christmas Carol              |      | Holiday | 👍    | ✅       |
 | The Polar Express                        |      | Holiday |        | ❌      |
-| The Santa Clause                         |      | Holiday |        | ❌      |
+| The Santa Clause                         |      | Holiday | 👍    | ✅       |
+| The Holiday| | Holiday | 👍    | ✅ |
