@@ -111,7 +111,7 @@ Concepts we need to know:
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48a20301-5817-455a-9793-ec81013dc974/Untitled.png)
 
-|Model|Description|
+|**Model**|**Description**|
 |-----|-----------|
 |**Infrastructure as a Service (IaaS)**| Full access to cloud servers, we can completely configure them how we want, but need to fully maintain the servers ourselves.|
 |**Platform as a Service (PaaS)**| We have a service that is configured for us, and we just need to deploy our customization onto it. |
