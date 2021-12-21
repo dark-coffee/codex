@@ -18,7 +18,7 @@ set preferred dns server under nameserver x.x.x.x
 
 ## User Management
 
-### Adding users 
+### Adding users
 
 ```bash
 adduser
@@ -29,3 +29,5 @@ adduser
 ```bash
 userdel
 ```
+
+## Installing Binaries
