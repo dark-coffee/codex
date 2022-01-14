@@ -41,3 +41,9 @@ passwd [user]
 ```bash
 sudo dpkg -i [binary].deb
 ```
+
+## Upgrading Ubuntu Releases
+
+```bash
+sudo do-release-upgrade
+```
