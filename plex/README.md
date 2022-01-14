@@ -24,7 +24,7 @@ My server is running on an Intel NUC (tall boi) with:
 - 16GB Corsair Vengeance DDR4 SO-DIMM
 - 250GB WD Blue M2 SSD (Operating System)
 - 1TB Samsung 860 EVO (Server Operations)
-- 4TB WD Red HDD (External to NUC - Media Drive)
+- 4TB WD Red HDD (External to NUC - Media Drive, running over thunderbolt)
 
 ### Configuration
 

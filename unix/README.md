@@ -30,4 +30,14 @@ adduser
 userdel
 ```
 
+### Resetting Passwords
+
+```bash
+passwd [user]
+```
+
 ## Installing Binaries
+
+```bash
+sudo dpkg -i [binary].deb
+```
