@@ -1,5 +1,17 @@
 # PowerShell
 
+## Troubleshooting With PowerShell
+
+### Testing SMTP Email Functionality
+
+```PowerShell
+Send-MailMessage -To 'user.name@provider.com' -From 'user.name@provider.com' -SMTPServer 'fully.qualified.domain.name' -Subject 'test' -Body 'test' -useSSL -Credential $(Get-Credential)
+```  
+^ `-useSSL` is required if email transport requires STARTTLS  
+^ `-Credential` is required if email transport requires credentials. $(Get-Credential) will prompt for credentials
+
+---
+
 ## AWS Commandline Tools
 
 * [AWS Commandline Tools](aws/readme.md)
