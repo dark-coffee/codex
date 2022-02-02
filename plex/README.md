@@ -23,7 +23,7 @@ echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sour
 curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
 ```
 
-^ Debian only
+^ Debian/Ubuntu only
 
 #### Hardware
 
