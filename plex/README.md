@@ -11,10 +11,19 @@
 
 ### Setup
 
-My server is currently running on Ubuntu, and was installed using a binary. The downside to this method is that there is no ability to update the server from the console, all updates are manual.
+My server is currently running on Ubuntu, and was installed using a binary.
 
 In future, I will probably roll my server using Docker, or use the snap version of Plex Media Server.  
 For Windows/macOS, I would use the .exe/.dmg version.
+
+#### Updating Plex via apt
+
+```bash
+echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+```
+
+^ Debian only
 
 #### Hardware
 
