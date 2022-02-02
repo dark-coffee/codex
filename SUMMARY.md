@@ -35,6 +35,7 @@
 * [PowerShell](cli/powershell.md)
 * [Privacy](privacy.md)
 * [Remote](remote/README.md)
+* [SSH] (ssh.md)
 * [SQL](sql/README.md)
   * [Troubleshooting](sql/troubleshooting.md)
   * [Training Courses](sql/training/README.md)
