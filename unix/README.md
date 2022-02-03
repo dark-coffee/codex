@@ -42,8 +42,14 @@ passwd [user]
 sudo dpkg -i [binary].deb
 ```
 
-## Upgrading Ubuntu Releases
+## Upgrading Releases
 
 ```bash
 sudo do-release-upgrade
+```
+
+## Mounting a Windows Share
+
+```bash
+sudo mount -t cifs -o  //[host]/[share] [directory] user=[windows user]
 ```
