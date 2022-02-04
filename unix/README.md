@@ -40,6 +40,18 @@ passwd [user]
 sudo dpkg -i [binary].deb
 ```
 
+## Getting Updates
+
+```bash
+sudo apt-get update
+```
+
+## Getting Upgrades
+
+```bash
+sudo apt-get upgrade
+```
+
 ## Upgrading Releases
 
 ```bash
