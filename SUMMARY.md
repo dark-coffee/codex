@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Meta](META.md)
+* [Ansible](ansible/README.md)
 * [Ascii](ascii.md)
 * [AWS](aws/README.md)
   * [Certs](aws/certs/README.md)
