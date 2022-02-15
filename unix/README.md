@@ -61,5 +61,5 @@ sudo do-release-upgrade
 ## Mounting a Windows Share
 
 ```bash
-sudo mount -t cifs -o  //[host]/[share] [directory] user=[windows user]
+sudo mount -t cifs //[host]/[share] [directory] -o user=[windows user]
 ```
